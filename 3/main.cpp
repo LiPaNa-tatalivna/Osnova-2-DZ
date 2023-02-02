@@ -18,11 +18,7 @@ void new_adres(adres*, int);
 int main()
 {
     adres* adresss = new adres[2];
-    adresss[0].gorod = "Москва";
-    adresss[0].ylica = "Ленинский проспект";
-    adresss[0].nomer_doma = 65;
-    adresss[0].nomer_kvartire = 7;
-    adresss[0].indecs = 9889393;
+    adresss[0] = {"Москва", "Ленинский проспект", 65, 7, 9889393};
     
     adresss[1].gorod = "Сочи";
     adresss[1].ylica = "Ленинский проспект";
